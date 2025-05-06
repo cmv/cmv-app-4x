@@ -1,0 +1,30 @@
+.gis_MeasureDijit .outerList > li {
+    margin-bottom: 1em;
+}
+
+.gis_MeasureDijit .list-unstyled {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.gis_MeasureDijit .list-inline {
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-left: -5px;
+    padding-left: 0;
+}
+
+.gis_MeasureDijit .list-inline > li {
+        display: inline-block;
+    }
+
+.gis_MeasureDijit .formContainer {
+    width: 100%;
+}
+
+.gis_MeasureDijit .dijitButtonNode .dijitIcon {
+    margin-right: 0;
+}

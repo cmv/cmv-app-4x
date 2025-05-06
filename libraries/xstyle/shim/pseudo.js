@@ -1,0 +1,3 @@
+//>>built
+define("xstyle/shim/pseudo",[],function(){function d(b,a,f){g[b]||(g[b]=!0,document.attachEvent(b,function(e){for(var c=e.srcElement;e=c.currentStyle;)e.xstyle&&(a?c.className+=" "+f:function(h){setTimeout(function(){h.className=(" "+h.className+" ").replace(" "+f+" "," ").slice(1)},0)}(c)),c=c.parentNode}))}var g={};return{onPseudo:function(b,a){"hover"==b?(d("onmouseover",!0,"xstyle-hover"),d("onmouseout",!1,"xstyle-hover"),a.add(a.selector.replace(/:hover/,""),"xstyle: true"),a.add(a.selector.replace(/:hover/,
+".xstyle-hover"),a.cssText)):"focus"==b&&(d("onactivate",!0,"xstyle-focus"),d("ondeactivate",!1,"xstyle-focusr"),a.add(a.selector.replace(/:hover/,""),"xstyle: true"),a.add(a.selector.replace(/:hover/,".xstyle-focus"),a.cssText))}}});

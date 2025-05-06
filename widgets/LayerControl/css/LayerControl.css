@@ -1,0 +1,190 @@
+.layerControlDijit .vectorLabelContainer,
+.layerControlDijit .overlayLabelContainer {
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 4px;
+}
+
+.layerControlDijit .layerControl {
+    padding-bottom: 6px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.layerControlDijit .layerControlExpand {
+    border-bottom: solid 1px #DDD;
+}
+
+.layerControlDijit .layerControlTable {
+    width: 100%;
+}
+
+.layerControlDijit .layerControlTable tr {
+    vertical-align: top;
+}
+
+.layerControlDijit .layerControlTable td {
+    padding: 0;
+}
+
+.layerControlDijit .layerControlTableExpand,
+.layerControlDijit .layerControlTableCheck,
+.layerControlDijit .layerControlTableMenu,
+.layerControlDijit .layerControlTableLabel {
+    cursor: pointer;
+}
+
+.layerControlDijit .layerControlTableExpand,
+.layerControlDijit .layerControlTableCheck,
+.layerControlDijit .layerControlTableMenu,
+.layerControlDijit .layerControlTableUpdate {
+    text-align: center;
+}
+
+.layerControlDijit .layerControlTableLabel {
+    font-size: 15px;
+    line-height: 16px;
+    padding-top: 2px;
+    width: 100%;
+}
+
+.layerControlDijit .layerControlHidden {
+    display: none;
+}
+
+.layerControlDijit .layerControlVisible {
+    display: block;
+}
+
+.layerControlDijit .layerControlIndent {
+    padding-left: 20px;
+}
+
+.layerControlDijit .layerControlIcon {
+    font-size: 18px;
+    margin-right: 4px;
+}
+
+.layerControlDijit .layerControlTableCheck .layerControlIcon {
+    font-size: 12px;
+    height: 13px;
+    width: 13px;
+}
+
+.layerControlDijit .layerControlTableExpand .layerControlIcon {
+    margin-right: 0;
+    width: 1em;
+}
+
+.layerControlDijit .layerControlIndent .layerControlTableExpand .layerControlIcon {
+    margin-right: 4px;
+}
+
+.layerControlDijit .layerControlIndent .layerControlIndent .layerControlTableExpand .layerControlIcon,
+.layerControlDijit .layerControlIndent .layerControlSublayer .layerControlTableExpand .layerControlIcon {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.layerControlDijit .layer-folder {
+    color: #666;
+}
+
+.layerControlDijit .layerControlTableExpand .layerControlIcon-Folder {
+    color: #F4D57A;
+}
+
+.layerControlDijit .layerControlTableCheck .fa-border {
+    border-color: #333;
+    border-radius: 3px;
+    padding: 0.15em 0.1875em 0.1125em;
+}
+
+.layerControlDijit .layerControlTableCheck .layerControlIcon-Checked {
+    color: #090;
+}
+
+.layerControlDijit .layerControlTableCheck .layerControlIcon-Unchecked:before {
+    color: transparent;
+}
+
+.layerControlDijit .layerControlTableCheck .layerControlIcon-Indeterminate {
+    color: #666;
+}
+
+.layerControlDijit .layerControlIcon-Update {
+    color: #666;
+    font-size: 12px;
+}
+
+.layerControlDijit .layerControlIcon-Menu {
+    color: #666;
+    font-size: 15px;
+    margin-left: 4px;
+}
+
+.layerControlDijit .layerControlIcon-Menu:hover {
+    color: #111;
+}
+
+.layerControlDijit .layerControlTableCheck .layerControlCheckIconOutScale {
+    border-color: #BBB;
+    color: #BBB;
+}
+
+/* not in use - retain for links */
+.layerControlDijit .layerControlClick {
+    color: #1f78af;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.layerControlDijit .layerControlClick:hover {
+    text-decoration: underline;
+}
+
+.layerControlDijit .layerControlLegendTable {
+    margin: 4px 0;
+}
+
+.layerControlDijit .layerControlLegendTable tr {
+    vertical-align: middle;
+}
+
+.layerControlDijit .layerControlLegendImage > img {
+    border: none;
+    padding: 0;
+}
+
+.layerControlDijit .layerControlLegendLabel {
+    padding: 0 0 0 4px;
+}
+
+/* temp esri/Legend overrides */
+.layerControlDijit .esriLegendService td {
+    padding: 0;
+}
+
+.layerControlDijit .esriLegendGroupLayer,
+.layerControlDijit .esriLegendLayerLabel {
+    padding: 0;
+}
+
+.layerControlDijit .esriLegendServiceLabel {
+    display: none;
+}
+
+/* sublayer menu */
+.layerControlDijit .layerControlSublayer .layerControlTable td.layerControlTableMenu {
+    padding-right: 16px;
+}
+
+.layerControlDijit .menuClickNode.hidden {
+    display: none;
+}

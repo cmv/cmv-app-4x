@@ -1,0 +1,36 @@
+.cmvExpandPane.dijitTitlePane {
+    background-color: transparent;
+    border-radius: 6px;
+    max-width: 100%;
+}
+
+.cmvExpandPane .dijitClosed .dijitTitlePaneTextNode,
+.cmvExpandPane .dijitTitleClosed .floatingWidgetDock,
+.cmvExpandPane .dijitClosed .floatingWidgetPopout,
+.cmvExpandPane .dijitClosed .dijitArrowNode {
+    display: none !important;
+}
+
+.cmvExpandPane .dijitClosed .dijitArrowNode {
+    float: right;
+}
+
+.cmvExpandPane .dijitArrowNode:before {
+    content: "\f054" !important;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.cmvExpandPane .dijitTitlePaneTitle .titlePaneIcon {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.cmvExpandPane .dijitTitlePaneTitle.dijitClosed .titlePaneIcon {
+    font-size: 18px;
+}
+
+.cmvExpandPane .dijitTitlePaneTitle {
+    padding: 4px;
+}

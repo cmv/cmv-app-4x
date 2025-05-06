@@ -1,0 +1,51 @@
+.gis_StreetView {
+    height: 250px;
+    padding-bottom: 5px;
+    position: relative;
+    width: 100%;
+}
+
+.gis_StreetView .streetViewButton {
+    left: 4px;
+    position: absolute;
+    top: 4px;
+    z-index: 9;
+}
+
+.gis_StreetView .streetViewButton .dijitButtonNode {
+    padding: 6px;
+}
+
+.gis_StreetView .streetViewPano {
+    border: 1px solid #CCC;
+    height: 100%;
+    width: 100%;
+}
+
+.floatingWidget .gis_StreetView .streetViewPano {
+    height: 275px;
+    width: 400px;
+}
+
+.gis_StreetView .streetViewInstructions,
+.gis_StreetView .noStreetViewResults {
+    background-color: black;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.gis_StreetView .noStreetViewResults {
+    display: none;
+}
+
+.gis_StreetView .streetViewInstructionsText,
+.gis_StreetView .noStreetViewResultsText {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}

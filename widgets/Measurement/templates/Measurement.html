@@ -1,0 +1,38 @@
+<div class="gis_MeasureDijit">
+    <div class="formContainer">
+        <ul class="list-unstyled outerList">
+            <li>
+                <ul class="list-inline list-unstyled">
+                    <li>
+                        <button data-dojo-type="dijit/form/Button" data-dojo-props="iconClass:'fa-solid fa-ruler',showLabel:false"
+                                data-dojo-attach-event="onClick:measureLine"
+                                class="measureButton"
+                                title="${i18n.labels.distance}">
+                            ${i18n.labels.distance}
+                        </button>
+                    </li>
+                    <li>
+                        <button data-dojo-type="dijit/form/Button" data-dojo-props="iconClass:'fa-solid fa-chart-area',showLabel:false"
+                                data-dojo-attach-event="onClick:measureArea"
+                                class="measureButton"
+                                title="${i18n.labels.area}">
+                            ${i18n.labels.area}
+                        </button>
+                        <button data-dojo-type="dijit/form/Button" data-dojo-props="iconClass:'fa-solid fa-trash',showLabel:false"
+                                data-dojo-attach-event="onClick:measureDelete"
+                                class="measureButton"
+                                title="${i18n.labels.delete}">
+                            ${i18n.labels.delete}
+                        </button>
+                    </li>                   
+                </ul>
+            </li>
+            <li>
+                <!--<div class="measureModeIndicatorNode">
+        <span style="font-weight: bold">${i18n.labels.currentMeasureMode}</span>
+        <span data-dojo-attach-point="measureModeTextNode">${i18n.labels.currentMeasureModeNone}</span>
+    </div>-->
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "draw-icons";
+    font-style: normal;
+    font-weight: normal;
+    src:url("./fonts/draw-icons.eot");
+    src:url("./fonts/draw-icons.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/draw-icons.woff") format("woff"),
+    url("./fonts/draw-icons.ttf") format("truetype"),
+    url("./fonts/draw-icons.svg#draw-icons") format("svg");
+}
+
+/* csslint order-alphabetical: 0 */
+.cmvSearchWidget .draw-icon-rectangle:before,
+.cmvSearchWidget .draw-icon-circle:before,
+.cmvSearchWidget .draw-icon-freehand-polygon:before,
+.cmvSearchWidget .draw-icon-point:before,
+.cmvSearchWidget .draw-icon-polyline:before,
+.cmvSearchWidget .draw-icon-text:before,
+.cmvSearchWidget .draw-icon-freehand-polyline:before,
+.cmvSearchWidget .draw-icon-polygon:before,
+.cmvSearchWidget .draw-icon-polygon:before {
+    font-family: "draw-icons";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-transform: none;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.cmvSearchWidget .draw-icon-rectangle:before {
+    content: "\e005";
+}
+
+.cmvSearchWidget .draw-icon-circle:before {
+    content: "\e001";
+}
+
+.cmvSearchWidget .draw-icon-freehand-polygon:before {
+    content: "\e002";
+}
+
+.cmvSearchWidget .draw-icon-point:before {
+    content: "\e003";
+}
+
+.cmvSearchWidget .draw-icon-polyline:before {
+    content: "\e004";
+}
+
+.cmvSearchWidget .draw-icon-text:before {
+    content: "\e006";
+}
+
+.cmvSearchWidget .draw-icon-freehand-polyline:before {
+    content: "\e007";
+}
+
+.cmvSearchWidget .draw-icon-polygon:before {
+    content: "\e008";
+}

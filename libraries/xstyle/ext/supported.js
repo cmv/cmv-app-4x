@@ -1,0 +1,2 @@
+//>>built
+define("xstyle/ext/supported",[],function(){var h=/(([-+])|[,<> ])?\s*(\.|!|#|:)?([-\w$]+)?(?:\[([^\]=]+)=?['"]?([^\]'"]*)['"]?\])?/g;return{onPseudo:function(k,a){var b=!0;a.selector.replace(h,function(c,m,n,l,f,d,g){var e;if(f&&!l&&(c=(e=document.createElement(f)).toString(),"[object HTMLUnknownElement]"==c||"[object]"==c)){b=!1;return}d&&(e.setAttribute(d,g),e[d]!=g&&(b=!1))});b==("supported"==k)&&a.add(a.selector=a.selector.replace(/:(un)?supported/,""),a.cssText)}}});

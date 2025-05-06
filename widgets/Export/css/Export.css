@@ -1,0 +1,34 @@
+.floatingWidget .cmvExportWidget {
+    width: 285px;
+}
+
+.cmvExportWidget .exportContainer {
+    padding: 10px;
+}
+
+.cmvExportWidget  .divWkidSection {
+    display: none;
+    margin-top: 15px;
+}
+
+.cmvExportWidget  .divWkidTextSection {
+    color: #999;
+    margin-top: 10px;
+}
+.cmvExportWidget  .divWkidText {
+    height: 120px;
+    margin:5px;
+    overflow-x: hidden;
+    width:100%;
+}
+
+.cmvExportWidget  .divExportButton,
+.cmvExportWidget  .divExportLink {
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+#export_parent_underlay {
+    display: block;
+}

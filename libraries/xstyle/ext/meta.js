@@ -1,0 +1,3 @@
+//>>built
+define("xstyle/ext/meta",["xstyle/core/es6","xstyle/core/expression","xstyle/core/Definition"],function(w,p,q){function f(g){return{selfReacting:!0,apply:function(r,d,h){d=d[0];for(var b,m,k=[];d;)k.push(d),d=d.parent;return t(function(){for(var l=[],c=0,u=arguments.length;c<u;c++){var a=arguments[c],v=k[c];if(a&&"object"===typeof a&&(a=e[g](a),void 0!==a)){if(a!==m){var n=!0;b&&b.notDependencyOf(h);b=new q;b.setSource(a)}for(m=a;l.length;)c=l.pop(),a=a[c],n&&(b=b.property(c));n&&(b.dependencyOf(h),
+b.valueOf());return a}l.push(v.key)}}).apply(r,k,h)}}}var t=p.react,e=f("getMeta");e.validate=f("getErrors");e.createMeta=f;e.getErrors=function(){throw Error("You must register an error handler");};e.getMeta=function(g){return g.constructor.properties};return e});

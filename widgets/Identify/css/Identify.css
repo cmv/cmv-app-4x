@@ -1,0 +1,13 @@
+.gis_IdentifyDijit {
+    width: 100%;
+}
+
+.floatingWidget .gis_IdentifyDijit .formContainer {
+    min-width: 300px;
+    padding: 10px;
+}
+
+.gis_IdentifyDijit .identifySelect {
+    margin-top: 5px;
+    width: 100%;
+}
